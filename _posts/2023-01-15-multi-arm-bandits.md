@@ -31,9 +31,9 @@ setting for an n-armed bandit (actually it should be n single-armed bandits, but
 
 > n-armed bandit: Given n different possible actions, determine the best action that yields maximal expected reward
 
-We formalize this by saying that there is an agent, that takes an action **a_t** from among **{A_1, A_2,\ldots,A_n}**
-at timestep **t** and receives a reward **r_t**. The agent does this for **T** steps. At each step, the agent 
-tries to choose **a_t** such that the expected reward **E[R_T] = \frac{r_1 + r_2 + \ldots + r_T}{T}** is maximized. 
+We formalize this by saying that there is an agent, that takes an action $a_t$ from among #{A_1, A_2,\ldots,A_n}#
+at timestep $t$ and receives a reward $r_t$. The agent does this for $T$ steps. At each step, the agent 
+tries to choose $a_t$ such that the expected reward $E[R_T] = \frac{r_1 + r_2 + \ldots + r_T}{T}$ is maximized. 
 
 This note is a brief introduction to approximation algorithms. Basically, the "Intro to
 Algorithms" courses are concerned with problems which are solvable in poly-time (i.e., problems
