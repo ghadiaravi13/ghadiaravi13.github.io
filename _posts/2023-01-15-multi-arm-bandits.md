@@ -10,15 +10,18 @@ this blog referring from the book "Reinforcement Learning: An Introduction" by S
 This blog is intended for anyone who wants to learn about bandits who has some knowledge of probability
 and basic mathematics.
 
-###Literal resemblance
->Bandit: someone who tries to deplete you of your money (or other resources)
+### Literal resemblance
+
+> Bandit: someone who tries to deplete you of your money (or other resources)
+
 In the context of a casino (from which RL derives the analogy), a bandit or a slot machine
 is a machine with a lever, wherein you put in some money to pull the lever and the machine 
 processes the output, and for some specific outputs, you win (you get monetary reward). You keep
 repeating this in lieu of winning, keeping in mind that each lever pull has a cost (now you might
 get why its called a **bandit**)
 
-###The n-armed bandit
+### The n-armed bandit
+
 Consider a case where you enter the casino and see not just one, but n different slot machines. They
 are different in the sense that some machines give much higher reward (say they generate the winning 
 output much more frequently) than others. Let us suppose that you have enough money to pull lever for 
