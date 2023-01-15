@@ -6,9 +6,27 @@ mathjax: true
 ---
 
 This blog provides a brief walkthrough of the multi-armed bandits. I have tried to structure
-the blog referring from "Reinforcement Learning: An Introduction" by Sutton & Barto. This blog is
-intended for anyone who wants to learn about bandits who has a some knowledge of probability
+this blog referring from the book "Reinforcement Learning: An Introduction" by Sutton & Barto.
+This blog is intended for anyone who wants to learn about bandits who has some knowledge of probability
 and basic mathematics.
+
+###Literal resemblance
+>Bandit: someone who tries to deplete you of your money (or other resources)
+In the context of a casino (from which RL derives the analogy), a bandit or a slot machine
+is a machine with a lever, wherein you put in some money to pull the lever and the machine 
+processes the output, and for some specific outputs, you win (you get monetary reward). You keep
+repeating this in lieu of winning, keeping in mind that each lever pull has a cost (now you might
+get why its called a **bandit**)
+
+###The n-armed bandit
+Consider a case where you enter the casino and see not just one, but n different slot machines. They
+are different in the sense that some machines give much higher reward (say they generate the winning 
+output much more frequently) than others. Let us suppose that you have enough money to pull lever for 
+100 turns (assume that pulling lever of any slot machine costs the same). Ofcourse you would want to 
+know the slot machine which gives you best overall reward at the end of 100 pulls. This is exactly the
+setting for an n-armed bandit (actually it should be n single-armed bandits, but it is what it is ¯\_(ツ)_/¯)
+
+> n-armed bandits: Given n different possible actions, determine the best action that yields maximal future reward
 
 This note is a brief introduction to approximation algorithms. Basically, the "Intro to
 Algorithms" courses are concerned with problems which are solvable in poly-time (i.e., problems
