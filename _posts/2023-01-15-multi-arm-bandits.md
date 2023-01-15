@@ -7,8 +7,7 @@ mathjax: true
 
 This blog provides a brief walkthrough of the multi-armed bandits. I have tried to structure
 this blog referring from the book "Reinforcement Learning: An Introduction" by Sutton & Barto.
-This blog is intended for anyone who wants to learn about bandits who has some knowledge of probability
-and basic mathematics.
+This blog is intended for anyone who has some knowledge of probability and basic mathematics.
 
 ### Literal resemblance
 
@@ -27,13 +26,13 @@ are different in the sense that some machines give much higher reward (say they 
 output much more frequently) than others. Let us suppose that you have enough money to pull lever for 
 100 turns (assume that pulling lever for all slot machine costs the same). Ofcourse you would want to 
 know the slot machine which gives you best expected reward for 100 pulls. This is exactly the
-setting for an n-armed bandit (actually it should be n single-armed bandits, but it is what it is)
+setting for an n-armed bandit.
 
 > n-armed bandit: Given n different possible actions, determine the best action that yields maximal expected reward
 
 We formalize this by saying that there is an agent, that takes an action $a_t$ from among ${A_1, A_2,\ldots,A_n}$
 at timestep $t$ and receives a reward $r_t$. The agent does this for $T$ steps. At each step, the agent 
-tries to choose $a_t$ such that the expected reward over **T** steps $E[R_T]$ is maximized. 
+tries to choose $a_t$ such that the expected reward over **T** steps -> $E[R_T]$ is maximized. 
 
 This note is a brief introduction to approximation algorithms. Basically, the "Intro to
 Algorithms" courses are concerned with problems which are solvable in poly-time (i.e., problems
