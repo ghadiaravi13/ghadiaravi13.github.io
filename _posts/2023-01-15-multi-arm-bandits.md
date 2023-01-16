@@ -51,7 +51,7 @@ Next, we'll briefly go over two basic methods for solving the n-armed bandit pro
 ### Method 1: Greedy
 
 As the name suggest, this method tries to take action greedily so as to maximize immediate returns. The agent does
-this by choosing action with maximum value $a_t = argmax_i Q(A_i)$. While this guarantees that your immediate return
+this by choosing action with maximum value $a_t = argmax_{A_i}  Q(A_i)$. While this guarantees that your immediate return
 is the best possible given your current knowledge, more famously called the *exploitation*, this approach overlooks 
 the other counterpart ie, *exploration*; essentially, what it means is that it might not be so wise to completely rely
 on the current knowledge of the value estimates, and the agent should rather try to go against the greed to explore
