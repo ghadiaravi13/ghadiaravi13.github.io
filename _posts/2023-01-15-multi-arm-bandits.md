@@ -37,12 +37,12 @@ tries to choose $a_t$ such that the expected reward over **T** steps ie, $E[R_T]
 **Value of an action:** The value of a chosen action at timestep $t$ is the expected reward from that action 
 $a_t$. Consider the example of n slot machines: each machine $i$ is designed in such a way that the reward is stochastic
 and follows some probability distribution $P_i(r)$. We then say that the true value of pulling the $ith$ lever is
-$q(A_i) = E_{P_i}[r]$. In reality however, it isn't often possible to know the true value of an action $A_i$ ie, $q(A_i)$.
-Instead, what we might have is an estimate of the true value of action taken at timestep $t$ ie,$Q(a_t)$.
+$q(A_i) = E_{P_i}[r]$. In reality however, it isn't often possible to know the true value $q(A_i)$. Instead, 
+what we might have is an estimate of the true value ie,$Q(a_t)$.
 
 There can be different ways of estimating the value function $Q(a_t)$. One simple way could be to take the average of
 past rewards from that action. For instance, if $a_t = A_i$ (ie, we pull lever from $ith$ machine at timestep $t$),
-then $Q(a_t) = average(R_i)$ where $R_i$ is the set of past reward obtained by exercising $A_i$.
+then $Q(a_t) = average({R_i})$ where ${R_i}$ is the set of past rewards obtained by exercising $A_i$.
 
 Next, we'll briefly go over two basic methods for solving the n-armed bandit problem.
 
