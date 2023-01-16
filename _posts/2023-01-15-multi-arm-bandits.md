@@ -53,4 +53,13 @@ Next, we'll briefly go over two basic methods for solving the n-armed bandit pro
 As the name suggest, this method tries to take action greedily so as to maximize immediate returns. The agent does
 this by choosing action with maximum value $a_t = argmax_i Q(A_i)$. While this guarantees that your immediate return
 is the best possible given your current knowledge, more famously called the *exploitation*, this approach overlooks 
-the other counterpart ie, *exploration*.
+the other counterpart ie, *exploration*; essentially, what it means is that it might not be so wise to completely rely
+on the current knowledge of the value estimates, and the agent should rather try to go against the greed to explore
+some non-greedy action as it might turn out to be more reward on a long run.
+
+### Method 2: Epsilon-Greedy
+
+To mitigate the issue of being too exploitative by being greedy, there is an alternate method called **epsilon-greedy**.
+In this method, the agent still tries to be greedy most of the time, but randomly chooses an action for a small *epsilon*
+fraction of the time. Here, *epsilon* is a hyperparameter that controls exploration v/s exploitation ratio. Although it 
+might seem very trivial, the method works better than the greedy method for many cases.
