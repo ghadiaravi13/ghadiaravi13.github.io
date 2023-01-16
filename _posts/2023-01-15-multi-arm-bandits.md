@@ -55,7 +55,7 @@ this by choosing action with maximum value $a_t = argmax_{A_i}  Q(A_i)$. While t
 is the best possible given your current knowledge, more famously called the *exploitation*, this approach overlooks 
 the other counterpart ie, *exploration*; essentially, what it means is that it might not be so wise to completely rely
 on the current knowledge of the value estimates, and the agent should rather try to go against the greed to explore
-some non-greedy action as it might turn out to be more reward on a long run.
+some non-greedy action as it might turn out to be more rewarding on a long run.
 
 ### Method 2: Epsilon-Greedy
 
