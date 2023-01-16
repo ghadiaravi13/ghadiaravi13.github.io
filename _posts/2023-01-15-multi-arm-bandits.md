@@ -37,7 +37,7 @@ tries to choose $a_t$ such that the expected reward over **T** steps ie, $E[R_T]
 **Value of an action:** The value of a chosen action at timestep $t$ is the expected reward from that action 
 $a_t$. Consider the example of n slot machines: each machine $i$ is designed in such a way that the reward is stochastic
 and follows some probability distribution $P_i(r)$. We then say that the true value of pulling the $ith$ lever is
-$q(A_i) = E_P_i[r]$. In reality however, it isn't often possible to know the true value of an action $A_i$ ie, $q(A_i)$.
+$q(A_i) = E_(P_i)[r]$. In reality however, it isn't often possible to know the true value of an action $A_i$ ie, $q(A_i)$.
 Instead, what we might have is an estimate of the true value of action taken at timestep $t$ ie,$Q(a_t)$.
 
 There can be different ways of estimating the value function $Q(a_t)$. One simple way could be to take the average of
