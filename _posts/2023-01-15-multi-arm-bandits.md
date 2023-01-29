@@ -55,10 +55,12 @@ As the name suggest, this method tries to take action greedily so as to maximize
 this by choosing action with maximum value:
 
 <p style="text-align: center;">
-$a_t = argmax_{A_i} Q_{t} (A_i)$ 
+$a_t = argmax_{A_i} Q_{t} (A_i)$ ,
+<br>
+where $Q_{t}(A_i)$ is the estimated value function at timestep t.
 </p>
 
-, where $Q_{t}(A_i)$ is the estimated value function at timestep t.
+
 
 >Note: We use $Q_t$ because estimation of value function can be an iterative process and thus $Q$ can be different at different timesteps.
 
