@@ -42,24 +42,39 @@ what we might have is an estimate of the true value ie,$Q(a_t)$.
 
 There can be different ways of estimating the value function $Q(a_t)$. One simple way could be to take the average of
 past rewards from that action. For instance, if $a_t = A_i$ (ie, we pull lever from $ith$ machine at timestep $t$),
-then $Q(a_t) = average({R_i})$ where ${R_i}$ is the set of past rewards obtained by exercising $A_i$.
+then $Q(a_t) = average({R_i})$ where ${R_i}$ is the set of past rewards obtained by exercising machine $i$.
 
-Next, we'll briefly go over two basic methods for solving the n-armed bandit problem.
+Next, we'll briefly go over two basic methods for solving the n-armed bandit problem, *with the assumption that we
+somehow know the estimated value function $Q(a_t)$. *
 
 ---
 
 ### Method 1: Greedy
 
 As the name suggest, this method tries to take action greedily so as to maximize immediate returns. The agent does
-this by choosing action with maximum value $a_t = argmax_{A_i}  Q(A_i)$. While this guarantees that your immediate return
-is the best possible given your current knowledge, more famously called the *exploitation*, this approach overlooks 
-the other counterpart ie, *exploration*; essentially, what it means is that it might not be so wise to completely rely
-on the current knowledge of the value estimates, and the agent should rather try to go against the greed to explore
-some non-greedy action as it might turn out to be more rewarding on a long run.
+this by choosing action with maximum value:
+
+**$a_t = argmax_{A_i} Q_{t} (A_i)$** , where $Q_{t}(A_i)$ is the estimated value function at timestep t.
+
+>Note: We use $Q_t$, because estimation of value function can be an iterative process and thus $Q$ can be different at different timesteps.
+
+While this guarantees that your immediate return is the best possible given your current knowledge, more famously 
+called the *exploitation*, this approach overlooks the other counterpart ie, *exploration*; essentially, what it 
+means is that it might not be so wise to completely rely on the current knowledge of the value estimates, and the 
+agent should rather try to go against the greed to explore some non-greedy action as it might turn out to be more 
+rewarding on a long run.
+
+
 
 ### Method 2: Epsilon-Greedy
 
 To mitigate the issue of being too exploitative by being greedy, there is an alternate method called **epsilon-greedy**.
-In this method, the agent still tries to be greedy most of the time, but randomly chooses an action for a small *epsilon*
-fraction of the time. Here, *epsilon* is a hyperparameter that controls exploration v/s exploitation ratio. Although it 
-might seem very trivial, the method works better than the greedy method for many cases.
+In this method, the agent still tries to be greedy most of the time, but randomly chooses an action for $\epsilon$
+fraction of the time:
+
+**$a_t = argmax_{A_i} Q_{t} (A_i)$ if rand>$\epsilon$**
+**$a_t = randomly_choose({A_i})$ if rand<=$\epsilon$**, where **rand** is a random variable picked from a uniform distribution $\in$ **[0,1]**
+
+Here, $\epsilon$ is a hyperparameter that controls exploitation v/s exploration ratio. Although it 
+might seem very trivial, the method works better than the greedy method for many cases. Infact it is asymptotically
+guaranteed to be better than or equal to the greedy method $\forall \epsilon < 1$
