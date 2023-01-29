@@ -45,7 +45,7 @@ past rewards from that action. For instance, if $a_t = A_i$ (ie, we pull lever f
 then $Q(a_t) = average({R_i})$ where ${R_i}$ is the set of past rewards obtained by exercising machine $i$.
 
 Next, we'll briefly go over two basic methods for solving the n-armed bandit problem, *with the assumption that we
-somehow know the estimated value function $Q(a_t)$. *
+somehow know the estimated value function $Q(a_t)$.*
 
 ---
 
