@@ -76,14 +76,14 @@ rewarding on a long run.
 ### Method 2: Epsilon-Greedy
 
 To mitigate the issue of being too exploitative by being greedy, there is an alternate method called **epsilon-greedy**.
-In this method, the agent still tries to be greedy most of the time, but randomly chooses an action for $\epsilon$
+In this method, the agent still tries to be greedy most of the time, but randomly chooses an action for $\varepsilon$
 fraction of the time:
 
 <p style="text-align: center;">
   
-$a_t$ = $argmax_{A_i} Q_{t} (A_i)$ if $\chi > \epsilon$
+$a_t$ = $argmax_{A_i} Q_{t} (A_i)$ if $\chi > \varepsilon$
 <br>
-$a_t$ = randomly_choose $({A_i})$ if $\chi <= \epsilon$, 
+$a_t$ = randomly_choose $({A_i})$ if $\chi <= \varepsilon$, 
 <br>
 <br>
 where $\chi$ $\in$ <b>Uniform_Distribution[0,1]</b>
