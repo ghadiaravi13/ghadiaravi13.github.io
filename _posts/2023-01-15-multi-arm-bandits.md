@@ -55,7 +55,9 @@ As the name suggest, this method tries to take action greedily so as to maximize
 this by choosing action with maximum value:
 
 <p style="text-align: center;">
+  
 **$a_t = argmax_{A_i} Q_{t} (A_i)$** , where $Q_{t}(A_i)$ is the estimated value function at timestep t.
+
 </p>
 
 
@@ -76,10 +78,12 @@ In this method, the agent still tries to be greedy most of the time, but randoml
 fraction of the time:
 
 <p style="text-align: center;">
+  
 $a_t$ = $argmax_{A_i} Q_{t} (A_i)$ if $\chi > \epsilon$
 
 $a_t$ = randomly_choose $({A_i})$ if $\chi <= \epsilon$, where $\chi$ $\in$ **Uniform_Distribution[0,1]**
-</p>
+
+                                                       </p>
 
 Here, $\epsilon$ is a hyperparameter that controls exploitation v/s exploration ratio. Although it 
 might seem very trivial, the method works better than the greedy method for many cases. Infact it is asymptotically
