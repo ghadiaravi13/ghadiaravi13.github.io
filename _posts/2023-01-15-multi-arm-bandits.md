@@ -57,6 +57,7 @@ this by choosing action with maximum value:
 <p style="text-align: center;">
 $a_t = argmax_{A_i} Q_{t} (A_i)$ ,
 <br>
+<br>
 where $Q_{t}(A_i)$ is the estimated value function at timestep t.
 </p>
 
