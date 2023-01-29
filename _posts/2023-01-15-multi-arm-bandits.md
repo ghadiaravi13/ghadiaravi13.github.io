@@ -72,9 +72,9 @@ To mitigate the issue of being too exploitative by being greedy, there is an alt
 In this method, the agent still tries to be greedy most of the time, but randomly chooses an action for $\epsilon$
 fraction of the time:
 
-$a_t$ = $argmax_{A_i} Q_{t} (A_i)$ if $ \chi > \epsilon$
+$a_t$ = $argmax_{A_i} Q_{t} (A_i)$ if $\chi > \epsilon$
 
-$a_t$ = randomly_choose $({A_i})$ if $ \chi <= \epsilon$, where $\chi$ $\in$ **Uniform_Distribution[0,1]**
+$a_t$ = randomly_choose $({A_i})$ if $\chi <= \epsilon$, where $\chi$ $\in$ **Uniform_Distribution[0,1]**
 
 Here, $\epsilon$ is a hyperparameter that controls exploitation v/s exploration ratio. Although it 
 might seem very trivial, the method works better than the greedy method for many cases. Infact it is asymptotically
