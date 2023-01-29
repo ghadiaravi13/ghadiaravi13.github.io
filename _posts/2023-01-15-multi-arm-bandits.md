@@ -82,7 +82,10 @@ fraction of the time:
   
 $a_t$ = $argmax_{A_i} Q_{t} (A_i)$ if $\chi > \epsilon$
 <br>
-$a_t$ = randomly_choose $({A_i})$ if $\chi <= \epsilon$, where $\chi$ $\in$ <b>Uniform_Distribution[0,1]</b>
+$a_t$ = randomly_choose $({A_i})$ if $\chi <= \epsilon$, 
+<br>
+<br>
+where $\chi$ $\in$ <b>Uniform_Distribution[0,1]</b>
 </p>
 
 Here, $\epsilon$ is a hyperparameter that controls exploitation v/s exploration ratio. Although it 
