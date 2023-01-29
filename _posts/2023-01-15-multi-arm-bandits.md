@@ -91,4 +91,4 @@ where $\chi$ $\in$ <b>Uniform_Distribution[0,1]</b>
 
 Here, $\varepsilon$ is a hyperparameter that controls exploitation v/s exploration ratio. Although it 
 might seem very trivial, the method works better than the greedy method for many cases. Infact it is asymptotically
-guaranteed to be better than or equal to the greedy method $\forall \epsilon < 1$
+guaranteed to be better than or equal to the greedy method $\forall \varepsilon < 1$
