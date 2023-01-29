@@ -54,7 +54,10 @@ somehow know the estimated value function $Q(a_t)$. *
 As the name suggest, this method tries to take action greedily so as to maximize immediate returns. The agent does
 this by choosing action with maximum value:
 
+<p style="text-align: center;">
 **$a_t = argmax_{A_i} Q_{t} (A_i)$** , where $Q_{t}(A_i)$ is the estimated value function at timestep t.
+</p>
+
 
 >Note: We use $Q_t$ because estimation of value function can be an iterative process and thus $Q$ can be different at different timesteps.
 
@@ -72,9 +75,11 @@ To mitigate the issue of being too exploitative by being greedy, there is an alt
 In this method, the agent still tries to be greedy most of the time, but randomly chooses an action for $\epsilon$
 fraction of the time:
 
+<p style="text-align: center;">
 $a_t$ = $argmax_{A_i} Q_{t} (A_i)$ if $\chi > \epsilon$
 
 $a_t$ = randomly_choose $({A_i})$ if $\chi <= \epsilon$, where $\chi$ $\in$ **Uniform_Distribution[0,1]**
+</p>
 
 Here, $\epsilon$ is a hyperparameter that controls exploitation v/s exploration ratio. Although it 
 might seem very trivial, the method works better than the greedy method for many cases. Infact it is asymptotically
