@@ -82,10 +82,10 @@ url-pretty: "ghadiaravi13.github.io"  # eg. "deanattali.com/beautiful-jekyll"
 disqus: portfolio-2mv05zzcpe
 
 # Fill in your Google Analytics ID to track your website using GA
-# google_analytics: "UA-121781547-1"
+google_analytics: "G-1W1JH3JYDB"
 
 Google Tag Manager ID
-gtm: "G-1W1JH3JYDB"
+# gtm: "G-1W1JH3JYDB"
 
 # Facebook App ID
 # fb_app_id: ""
