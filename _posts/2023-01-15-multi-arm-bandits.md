@@ -92,3 +92,6 @@ where $\chi$ $\in$ <b>Uniform_Distribution[0,1]</b>
 Here, $\varepsilon$ is a hyperparameter that controls exploitation v/s exploration ratio. Although it 
 might seem very trivial, the method works better than the greedy method for many cases. Infact it is asymptotically
 guaranteed to be better than or equal to the greedy method $\forall \varepsilon < 1$
+
+I'll try to go into the details of other methods of solving an n-armed bandit problem in a seperate blog post.
+Until next blog... :v:
