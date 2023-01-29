@@ -94,4 +94,7 @@ might seem very trivial, the method works better than the greedy method for many
 guaranteed to be better than or equal to the greedy method $\forall \varepsilon < 1$
 
 I'll try to go into the details of other methods of solving an n-armed bandit problem in a seperate blog post.
+
+---
+
 Until next blog... :v:
