@@ -4,6 +4,14 @@
 /* --- General --- */
 
 body {
+  background-image: url('../IMG-0081');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  opacity: 0.5; /* Adjust the opacity as desired */
+}
+
+body {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 18px;
   color: #404040;
