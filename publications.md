@@ -11,8 +11,6 @@ You can also browse my <a href="https://scholar.google.co.in/citations?hl=en&use
   *Arxiv Preprint*
   [Paper](https://arxiv.org/abs/2503.00979){: .btn}
 
-<br />
-
 **2022**
 
 - **CORAL: Contextual Response Retrievability Loss Function for Training Dialog Generation Models**  
