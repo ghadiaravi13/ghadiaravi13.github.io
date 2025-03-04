@@ -6,9 +6,9 @@ You can also browse my <a href="https://scholar.google.co.in/citations?hl=en&use
 <br />
 
 **2025**
-- **Dialogue Without Limits: Constant-Sized KV Caches for Extended Responses in LLMs**
-  **Ravi Ghadia**, Avinash Kumar, Gaurav Jain, Prashant Nair, Poulami Das
-  *Arxiv Preprint*
+- **Dialogue Without Limits: Constant-Sized KV Caches for Extended Responses in LLMs**  
+  **Ravi Ghadia**, Avinash Kumar, Gaurav Jain, Prashant Nair, Poulami Das  
+  *Arxiv Preprint*  
   [Paper](https://arxiv.org/abs/2503.00979){: .btn}
 
 **2022**
