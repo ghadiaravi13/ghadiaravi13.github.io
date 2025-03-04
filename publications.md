@@ -5,6 +5,14 @@ title: Publications
 You can also browse my <a href="https://scholar.google.co.in/citations?hl=en&user=PWJstCUAAAAJ" target="_blank">Google Scholar profile</a>.
 <br />
 
+**2025**
+- **Dialogue Without Limits: Constant-Sized KV Caches for Extended Responses in LLMs**
+  **Ravi Ghadia**, Avinash Kumar, Gaurav Jain, Prashant Nair, Poulami Das
+  *Arxiv Preprint*
+  [Paper](https://arxiv.org/abs/2503.00979){: .btn}
+
+<br />
+
 **2022**
 
 - **CORAL: Contextual Response Retrievability Loss Function for Training Dialog Generation Models**  
