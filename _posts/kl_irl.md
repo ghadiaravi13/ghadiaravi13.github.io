@@ -1,0 +1,28 @@
+---
+layout: post
+title: "KL Divergence in real life"
+tags: ["RLHF"]
+mathjax: true
+---
+
+Often I face situations where I feel perplexed because I am dealing with something that wouldn't budge no matter how hard I try. Among many approaches that have been helpful, one is knowing
+a related idea in RL based LLM training -- KL Divergence. To prevent the policy from straying too far from the "reference" policy, we penalize the model based on it's KL divergence.
+
+May be I can apply something similar when dealing with things in life -- the ideal approach to deal with that thing should not require me to stray too far from my natural being. In other words,
+if life deals me with a problem, I should be able to handle it (or atleast try to handle) in a more natural way, instead of trying to come up with some esoteric ways that would require a whole
+lot of activation energy for me to shift from my current state into that new state. Also, the fact that a sequence of events must have occured before I finally face that problem suggest that all those events must have
+prepared me in some ways to handle the problem, so I better keep my eye open.
+
+For example, say I start working as an intern at some company $X$, and am assigned a project $X_i$ to work on, which I have very little knowledge about. My first bet would be to gain as much
+understanding of the domain as possible, but turns out it's several 100,000s lines of code, and would indeed take an experienced developer a few weeks to get started, let alone an intern with 
+practically no experience of that field. However, I can not ignore the fact that whoever decided to hand me the project referred to my resume and expected certain level of skill-set from me,
+and knowing that all of that is true, there is definitely something I can do to keep things rolling. In the next few days, I come across an API which handles all the heavy lifting associated with those 100,000s
+lines of code, so I just focus on the core logic of the application needed for $X_i$. While I still did not fully experience the under-the-hood workings of the API that rescued me, my experience
+working with computers in some specific ways helped me at the right time once I found the API. 
+
+Therefore, as a reminder to myself: Always look for ways that don't demand straying too far away from your current state. Nature moves in a way so silent and unnoticeable, may be we imitate
+some of it.
+
+---
+
+Until next blog... :v:
