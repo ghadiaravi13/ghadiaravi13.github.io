@@ -7,7 +7,7 @@ You can also browse my <a href="https://scholar.google.co.in/citations?hl=en&use
 
 **2026**
 - **Untied Ulysses: Memory-Efficient Context Parallelism via Headwise Chunking**  
-  **Ravi Ghadia**, Maksim Abraham, Sergei Vorobyov, Max Ryabinin
+  **Ravi Ghadia**, Maksim Abraham, Sergei Vorobyov, Max Ryabinin  
   *ArXiv Preprint*  
   [Paper](https://arxiv.org/abs/2602.21196){: .btn}
 
@@ -26,6 +26,7 @@ You can also browse my <a href="https://scholar.google.co.in/citations?hl=en&use
   [Paper](https://arxiv.org/abs/2205.10558){: .btn} 
 
 <br />
+
 
 
 
