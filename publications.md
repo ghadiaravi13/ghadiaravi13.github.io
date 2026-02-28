@@ -5,7 +5,7 @@ title: Publications
 You can also browse my <a href="https://scholar.google.co.in/citations?hl=en&user=PWJstCUAAAAJ" target="_blank">Google Scholar profile</a>.
 <br />
 
-**2025**
+**2026**
 - **Untied Ulysses: Memory-Efficient Context Parallelism via Headwise Chunking**  
   **Ravi Ghadia**, Maksim Abraham, Sergei Vorobyov, Max Ryabinin
   *ArXiv Preprint*
@@ -26,6 +26,7 @@ You can also browse my <a href="https://scholar.google.co.in/citations?hl=en&use
   [Paper](https://arxiv.org/abs/2205.10558){: .btn} 
 
 <br />
+
 
 
 
